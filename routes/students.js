@@ -8,6 +8,13 @@ let students = [
     age: 30,
     class: "FBW101",
     location: "BER"
+  }, 
+   {
+    name: "Ajil",
+    lastname: "Kado",
+    age: 39,
+    class: "FBW101",
+    location: "BER"
   }
 ];
 
@@ -31,7 +38,7 @@ router.get("/:name", (req, res) => {
 // - PUT (individual)
 router.put("/:name", (req, res) => {
   if (req.params.name && req.body) {
-    students = students.map((student) => {
+    students = students.map(student => {
       if (student.name.toLowerCase() === req.params.name.toLowerCase()) {
         Object.assign(student, req.body);
       }
