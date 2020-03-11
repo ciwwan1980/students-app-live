@@ -6,7 +6,7 @@ var myLogger = function (req, res, next) {
     // console.log(originalUrl, "originalUrl")
     let url=req.originalUrl; 
     let load=req.body; 
-    console.log(`${req.method} on ${url}`)
+    console.lslog(`${req.method} on ${url}`)
 
     next()
 }
