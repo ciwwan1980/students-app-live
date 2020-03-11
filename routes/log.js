@@ -1,7 +1,7 @@
 
 
 var myLogger = function (req, res, next) {
-    console.log(req)
+    // console.log(req)
     console.log(req.body); 
     // console.log(originalUrl, "originalUrl")
     let url=req.originalUrl; 
