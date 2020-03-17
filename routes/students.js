@@ -50,6 +50,7 @@ router.put("/:name", validate,(req, res) => {
   }
   res.send(students);
 });
+
 // - DELETE (individual)
 router.delete("/:name", (req, res) => {
   if (req.params.name) {

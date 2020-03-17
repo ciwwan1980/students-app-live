@@ -1,4 +1,9 @@
 ## What is app.use ?
+we write
+
+to run the application 
+1- npm run start, 
+2- 
 
 app:
 

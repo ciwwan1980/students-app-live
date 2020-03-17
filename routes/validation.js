@@ -24,7 +24,7 @@ const schema = Joi.object({
 });
 
     const validation = schema.validate(req.body)
-    console.log(validation.error)
+    // console.log(validation.error)
     if (validation.error){
         
         res.send('Error_________'); 
